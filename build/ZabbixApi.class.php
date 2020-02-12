@@ -1,6 +1,10 @@
 <?php
-
-/*
+/**
+ * @file    ZabbixApi.class.php
+ * @brief   Class file for the implementation of the class ZabbixApi.
+ *
+ * Implement your customizations in this file.
+ *
  * This file is part of PhpZabbixApi.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,15 +25,21 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @copyright The MIT License (MIT)
- * @author confirm IT solutions GmbH, Rathausstrase 14, CH-6340 Baar
+ * @copyright   The MIT License (MIT)
+ * @author      confirm IT solutions GmbH, Rathausstrase 14, CH-6340 Baar
  */
 
 namespace ZabbixApi;
 
+require 'ZabbixApiAbstract.class.php';
+
 /**
- * Exception class for ZabbixApi namespace.
+ * @brief   Concrete class for the Zabbix API.
  */
-class Exception extends \Exception
+
+class ZabbixApi extends ZabbixApiAbstract
 {
+
 }
+
+?>

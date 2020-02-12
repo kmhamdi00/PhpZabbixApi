@@ -1,6 +1,10 @@
 <?php
-
-/*
+/**
+ * @file    <FILENAME_CONCRETE>
+ * @brief   Class file for the implementation of the class <CLASSNAME_CONCRETE>.
+ *
+ * Implement your customizations in this file.
+ *
  * This file is part of PhpZabbixApi.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,17 +25,21 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @copyright The MIT License (MIT)
- * @author confirm IT solutions GmbH, Rathausstrase 14, CH-6340 Baar
+ * @copyright   The MIT License (MIT)
+ * @author      confirm IT solutions GmbH, Rathausstrase 14, CH-6340 Baar
  */
 
 namespace ZabbixApi;
 
+require '<FILENAME_ABSTRACT>';
+
 /**
- * Concrete class for the Zabbix API.
- *
- * @final since confirm-it-solutions/php-zabbix-api 2.x
+ * @brief   Concrete class for the Zabbix API.
  */
+
 class <CLASSNAME_CONCRETE> extends <CLASSNAME_ABSTRACT>
 {
+
 }
+
+?>
