@@ -3,12 +3,12 @@
     "type": "library",
     "description": "PhpZabbixApi library",
     "keywords": ["zabbix","api"],
-    "homepage": "http://github.com/confirm-it-solutions/PhpZabbixApi",
+    "homepage": "https://github.com/kmhamdi00/PhpZabbixApi",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dominique Barton",
-            "email": "dbarton@confirm.ch",
+            "name": "Khaled MHAMDI",
+            "email": "mhemdi00khaled@gmail.com",
             "homepage": "http://www.confirm.ch",
             "role": "Developer"
         }
